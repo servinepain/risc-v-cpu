@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/adder_32.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/alu.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/data_memory.vhdl" \
+"../../../../lab3_real.srcs/sources_1/new/extension_unit.vhd" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/instruction_memory.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/mux_2to1.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/program_counter.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/register_file.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/single_cycle_controller.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/tri_state_buffer.vhd" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/single_cycle_datapath.vhdl" \
+"../../../../lab3_real.srcs/sources_1/imports/lab3_part1_resources/single_cycle_riscv.vhd" \
+"../../../../lab3_real.srcs/sim_1/imports/lab3_part1_resources/single_cycle_riscv_tb.vhd" \
+
+# Do not sort compile order
+nosort

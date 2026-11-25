@@ -1,0 +1,185 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Nov 19 19:35:27 2026
+# Process ID         : 4740
+# Current directory  : C:/Users/zacharyren/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2260
+# Log file           : C:/Users/zacharyren/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/zacharyren/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : ZACHARYREN387A
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Apple Silicon
+# CPU Frequency      : 3200 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 6436 MB
+# Swap memory        : 2281 MB
+# Total Virtual      : 8717 MB
+# Available Virtual  : 2933 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Mac/Home/Downloads/lab3_real/lab3_real.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc_mux}} 
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_branch_adder}} 
+current_wave_config {Untitled 1}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc_mux}} 
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc_mux}} 
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_branch_adder}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_alu}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_regfile}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_immediate_extension}} 
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_data_mem}} 
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 7}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+current_wave_config {Untitled 7}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_alu}} 
+current_wave_config {Untitled 7}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+archive_project C:/Mac/Home/Downloads/lab3_final.xpr.zip -temp_dir C:/Users/zacharyren/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4740-ZACHARYREN387A -force -include_local_ip_cache
+urrent_wave_config {Untitled 10}
+add_wave {{/single_cycle_riscv_tb/DUT/pc_next}} 
+current_wave_config {Untitled 10}
+add_wave {{/single_cycle_riscv_tb/DUT/imm_ext}} 
+current_wave_config {Untitled 10}
+add_wave {{/single_cycle_riscv_tb/DUT/alu_result}} 
+current_wave_config {Untitled 10}
+add_wave {{/single_cycle_riscv_tb/DUT/rs1_data}} 
+current_wave_config {Untitled 10}
+add_wave {{/single_cycle_riscv_tb/DUT/data_mem_we}} 
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc/pc_next}} 
+relaunch_sim
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_pc/pc_out}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_instr_mem/data}} 
+relaunch_sim
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_regfile}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_immediate_extension}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_alu_src}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_alu}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/datapath/dp_data_mem}} 
+current_wave_config {Untitled 12}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+close_sim
+launch_simulation
+source single_cycle_riscv_tb.tcl
+current_wave_config {Untitled 13}
+add_wave {{/single_cycle_riscv_tb/DUT/control_unit}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+archive_project C:/Mac/Home/Downloads/lab3_riscv.xpr.zip -temp_dir C:/Users/zacharyren/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14716-ZACHARYREN387A -force -include_local_ip_cache
